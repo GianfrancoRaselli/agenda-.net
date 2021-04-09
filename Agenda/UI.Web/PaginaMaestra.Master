@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMaestra.master.cs" Inherits="UI.Web.PaginaMaestra" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maxium-scale=1.0, minimum-scale=1.0"/>
+    <link href="style/bootstrap.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="https://kit.fontawesome.com/5520773c7b.js" crossorigin="anonymous"></script>
+	<title>Página Maestra</title>
+    <style>
+		body{		
+			background-color: gainsboro;
+		}
+
+		#navbar {
+			position: fixed;
+			z-index: 100;
+			width: 100%;
+			top: 0;
+		}
+
+		@media (min-width: 991.5px) {
+			.user {
+				margin-left: auto;
+			}
+		}
+
+		@media (max-width: 991.5px) {
+			.user {
+				float: left;
+			}
+		}
+
+		#content {
+			margin-top: 66px;
+		}
+	</style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+			<div id="navbar">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a id="lblInicio" runat="server" class="nav-link" href="Inicio.aspx"><i class="fas fa-calendar-alt"></i>&nbsp;Mi Agenda</a>
+							</li>
+							<li class="nav-item">
+								<a id="lblMisRecordatorios" runat="server" class="nav-link" href="MisRecordatorios.aspx"><i class="fas fa-book-open"></i>&nbsp;Mis Recordatorios</a>
+							</li>
+							<li class="nav-item" runat="server" id="btnAgregarEvento" visible="false">
+								<asp:LinkButton ID="lnkAgregarEvento" runat="server" class="nav-link" CausesValidation="false" OnClick="lnkAgregarEvento_Click"><i class="fas fa-plus-circle"></i>&nbsp;Agregar Evento</asp:LinkButton>
+							</li>
+						</ul>
+						<ul class="navbar-nav user">
+			  				<li class="nav-item dropdown" style="margin-left: auto">
+								<a id="lblUsuario" runat="server" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="fas fa-user"></i>&nbsp;<asp:Label ID="lblNombreUsuario" runat="server" Text="User"></asp:Label>
+				    			</a>
+				       			<div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="navbarDropdownMenuLink">
+				        			<a id="lblPerfil" runat="server" class="dropdown-item" href="Perfil.aspx"><i class="far fa-id-card"></i>&nbsp;Perfil</a>
+									<asp:LinkButton ID="btnCerrarSesion" runat="server" style="color: red;" CausesValidation="False" class="dropdown-item" OnClick="btnCerrarSesion_Click"><i class="fas fa-sign-out-alt"></i>&nbsp;Cerrar sesión</asp:LinkButton>
+				   				</div>
+							</li>
+			  			</ul>
+					</div>
+				</nav>
+			</div>
+
+			<div id="content">
+				<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+			</div>
+        </div>
+    </form>
+
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

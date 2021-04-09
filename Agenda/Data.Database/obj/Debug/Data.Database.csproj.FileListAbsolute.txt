@@ -1,0 +1,15 @@
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Data.Database\obj\Debug\Data.Database.csprojAssemblyReference.cache
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Data.Database\obj\Debug\Data.Database.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Data.Database\bin\Debug\Data.Database.dll.config
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Data.Database\bin\Debug\Data.Database.dll
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Data.Database\bin\Debug\Data.Database.pdb
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Data.Database\bin\Debug\Business.Entities.dll
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Data.Database\bin\Debug\EntityFramework.dll
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Data.Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Data.Database\bin\Debug\Business.Entities.pdb
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Data.Database\bin\Debug\Business.Entities.dll.config
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Data.Database\bin\Debug\EntityFramework.xml
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Data.Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Data.Database\obj\Debug\Data.Database.csproj.CopyComplete
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Data.Database\obj\Debug\Data.Database.dll
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Data.Database\obj\Debug\Data.Database.pdb

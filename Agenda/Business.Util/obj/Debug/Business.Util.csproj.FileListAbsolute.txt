@@ -1,0 +1,6 @@
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Util\bin\Debug\Business.Util.dll
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Util\bin\Debug\Business.Util.pdb
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Util\obj\Debug\Business.Util.csprojAssemblyReference.cache
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Util\obj\Debug\Business.Util.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Util\obj\Debug\Business.Util.dll
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Util\obj\Debug\Business.Util.pdb

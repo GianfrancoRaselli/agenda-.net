@@ -1,0 +1,12 @@
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Entities\bin\Debug\Business.Entities.dll.config
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Entities\bin\Debug\Business.Entities.dll
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Entities\bin\Debug\Business.Entities.pdb
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Entities\bin\Debug\EntityFramework.dll
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Entities\bin\Debug\EntityFramework.xml
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Entities\obj\Debug\Business.Entities.csprojAssemblyReference.cache
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Entities\obj\Debug\Business.Entities.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Entities\obj\Debug\Business.Entities.csproj.CopyComplete
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Entities\obj\Debug\Business.Entities.dll
+C:\Users\USUARIO\Desktop\Agenda\Agenda\Business.Entities\obj\Debug\Business.Entities.pdb
